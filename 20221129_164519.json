@@ -1,0 +1,838 @@
+{
+    "dashboards": [
+        {
+            "__Dashboard__": {
+                "css": "",
+                "dashboard_title": "\u041b\u0435\u043d\u0442\u0430 \u043d\u043e\u0432\u043e\u0441\u0442\u0435\u0439/\u041c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440 - \u041e\u0441\u043d\u043e\u0432\u043d\u044b\u0435 \u043f\u043e\u043a\u0430\u0437\u0430\u0442\u0435\u043b\u0438",
+                "description": null,
+                "json_metadata": "{\"timed_refresh_immune_slices\": [], \"expanded_slices\": {}, \"refresh_frequency\": 0, \"default_filters\": \"{}\", \"color_scheme\": null, \"remote_id\": 2108}",
+                "position_json": "{\"CHART--GrRi1IpLb\":{\"children\":[],\"id\":\"CHART--GrRi1IpLb\",\"meta\":{\"chartId\":14933,\"height\":50,\"sliceName\":\"WAU\",\"uuid\":\"341e9ae0-b119-4e7f-8ef6-da3b6cd07d73\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-flc9Xfzch\"],\"type\":\"CHART\"},\"CHART-2wa_6bzFGn\":{\"children\":[],\"id\":\"CHART-2wa_6bzFGn\",\"meta\":{\"chartId\":14950,\"height\":50,\"sliceName\":\"\\u041f\\u0430\\u0440\\u0430\\u043b\\u043b\\u0435\\u043b\\u044c\\u043d\\u043e\\u0435 \\u0438\\u0441\\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435\",\"uuid\":\"6a1d0fd5-9c11-4839-b2ab-708eb1df51ea\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW--TPqgcbwS\"],\"type\":\"CHART\"},\"CHART-JdV0nXO51f\":{\"children\":[],\"id\":\"CHART-JdV0nXO51f\",\"meta\":{\"chartId\":14934,\"height\":50,\"sliceName\":\"MAU\",\"uuid\":\"b93eb486-6fa9-451a-8dc3-0ad7acafdd87\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-flc9Xfzch\"],\"type\":\"CHART\"},\"CHART-bNWpU_y49G\":{\"children\":[],\"id\":\"CHART-bNWpU_y49G\",\"meta\":{\"chartId\":14932,\"height\":50,\"sliceName\":\"DAU\",\"uuid\":\"073801d9-fc7f-4446-8d29-2ad2196b148f\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW-flc9Xfzch\"],\"type\":\"CHART\"},\"CHART-wIHW_O9qmG\":{\"children\":[],\"id\":\"CHART-wIHW_O9qmG\",\"meta\":{\"chartId\":14948,\"height\":50,\"sliceName\":\"\\u041f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0438\",\"uuid\":\"6fbb76e5-6d8a-4878-921a-a777a6fe98a7\",\"width\":4},\"parents\":[\"ROOT_ID\",\"GRID_ID\",\"ROW--TPqgcbwS\"],\"type\":\"CHART\"},\"DASHBOARD_VERSION_KEY\":\"v2\",\"GRID_ID\":{\"children\":[\"ROW--TPqgcbwS\",\"HEADER-w7JfZb0Z_V\",\"ROW-flc9Xfzch\"],\"id\":\"GRID_ID\",\"parents\":[\"ROOT_ID\"],\"type\":\"GRID\"},\"HEADER-w7JfZb0Z_V\":{\"children\":[],\"id\":\"HEADER-w7JfZb0Z_V\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\",\"headerSize\":\"MEDIUM_HEADER\",\"text\":\"\\u041f\\u043e\\u043a\\u0430\\u0437\\u0430\\u0442\\u0435\\u043b\\u0438 \\u043c\\u0435\\u0441\\u0441\\u0435\\u043d\\u0434\\u0436\\u0435\\u0440\\u0430\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"HEADER\"},\"HEADER_ID\":{\"id\":\"HEADER_ID\",\"meta\":{\"text\":\"\\u041b\\u0435\\u043d\\u0442\\u0430 \\u043d\\u043e\\u0432\\u043e\\u0441\\u0442\\u0435\\u0439/\\u041c\\u0435\\u0441\\u0441\\u0435\\u043d\\u0434\\u0436\\u0435\\u0440 - \\u041e\\u0441\\u043d\\u043e\\u0432\\u043d\\u044b\\u0435 \\u043f\\u043e\\u043a\\u0430\\u0437\\u0430\\u0442\\u0435\\u043b\\u0438\"},\"type\":\"HEADER\"},\"ROOT_ID\":{\"children\":[\"GRID_ID\"],\"id\":\"ROOT_ID\",\"type\":\"ROOT\"},\"ROW--TPqgcbwS\":{\"children\":[\"CHART-wIHW_O9qmG\",\"CHART-2wa_6bzFGn\"],\"id\":\"ROW--TPqgcbwS\",\"meta\":{\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"},\"ROW-flc9Xfzch\":{\"children\":[\"CHART-bNWpU_y49G\",\"CHART--GrRi1IpLb\",\"CHART-JdV0nXO51f\"],\"id\":\"ROW-flc9Xfzch\",\"meta\":{\"0\":\"ROOT_ID\",\"background\":\"BACKGROUND_TRANSPARENT\"},\"parents\":[\"ROOT_ID\",\"GRID_ID\"],\"type\":\"ROW\"}}",
+                "slices": [
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20221020.sor_feed_message",
+                            "datasource_type": "table",
+                            "id": 14932,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"echarts4Colors\", \"comparison_type\": \"values\", \"datasource\": \"7028__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"user_id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 36478, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT32\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"DAU\", \"optionName\": \"metric_dxcgosza8ps_s2iw9rs3cw\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"slice_id\": 14932, \"time_compare\": [\"1 week\", \"28 days\"], \"time_grain_sqla\": \"PT0.5H\", \"time_range\": \"Last day\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 14932, \"datasource_name\": \"sor_feed_message\", \"schema\": \"simulator_20221020\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":7028,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"Last day\",\"granularity\":\"time\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"PT0.5H\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"column_name\":\"user_id\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":36478,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"UINT32\",\"type_generic\":null,\"verbose_name\":null},\"aggregate\":\"COUNT_DISTINCT\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"DAU\",\"optionName\":\"metric_dxcgosza8ps_s2iw9rs3cw\"}],\"annotation_layers\":[],\"row_limit\":1000,\"timeseries_limit\":100,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "DAU",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20221020.sor_feed_message",
+                            "datasource_type": "table",
+                            "id": 14933,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"echarts4Colors\", \"comparison_type\": \"values\", \"datasource\": \"7028__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"user_id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 36478, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT32\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"WAU\", \"optionName\": \"metric_dxcgosza8ps_s2iw9rs3cw\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"slice_id\": 14933, \"time_compare\": [\"1 week\", \"28 days\"], \"time_grain_sqla\": \"PT1H\", \"time_range\": \"Last week\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 14933, \"datasource_name\": \"sor_feed_message\", \"schema\": \"simulator_20221020\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":7028,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"Last week\",\"granularity\":\"time\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"PT1H\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"aggregate\":\"COUNT_DISTINCT\",\"column\":{\"column_name\":\"user_id\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":36478,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"UINT32\",\"type_generic\":null,\"verbose_name\":null},\"expressionType\":\"SIMPLE\",\"hasCustomLabel\":true,\"isNew\":false,\"label\":\"WAU\",\"optionName\":\"metric_dxcgosza8ps_s2iw9rs3cw\",\"sqlExpression\":null}],\"annotation_layers\":[],\"row_limit\":1000,\"timeseries_limit\":100,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "WAU",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20221020.sor_feed_message",
+                            "datasource_type": "table",
+                            "id": 14934,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"echarts4Colors\", \"comparison_type\": \"values\", \"datasource\": \"7028__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"time\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"COUNT_DISTINCT\", \"column\": {\"column_name\": \"user_id\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 36478, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT32\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"MAU\", \"optionName\": \"metric_dxcgosza8ps_s2iw9rs3cw\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"slice_id\": 14934, \"time_compare\": [\"1 week\", \"28 days\"], \"time_grain_sqla\": \"P1D\", \"time_range\": \"Last month\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"url_params\": {}, \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 14934, \"datasource_name\": \"sor_feed_message\", \"schema\": \"simulator_20221020\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":7028,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"Last month\",\"granularity\":\"time\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"column_name\":\"user_id\",\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"id\":36478,\"is_dttm\":false,\"python_date_format\":null,\"type\":\"UINT32\",\"type_generic\":null,\"verbose_name\":null},\"aggregate\":\"COUNT_DISTINCT\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"MAU\",\"optionName\":\"metric_dxcgosza8ps_s2iw9rs3cw\"}],\"annotation_layers\":[],\"row_limit\":1000,\"timeseries_limit\":100,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "MAU",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20221020.sor_msg_feed_stats",
+                            "datasource_type": "table",
+                            "id": 14948,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"bnbColors\", \"comparison_type\": \"values\", \"datasource\": \"7034__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"uniqExact(user_id)\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 36551, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT64\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"\\u041f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0438 \\u043c\\u0435\\u0441\\u0441\\u0435\\u043d\\u0434\\u0436\\u0435\\u0440\\u0430\", \"optionName\": \"metric_y0irzkpp6w_q9x9etgnbt\", \"sqlExpression\": null}, {\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"feed_stat.uniqExact(user_id)\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 36552, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"UINT64\", \"type_generic\": null, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"\\u041f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u0442\\u0435\\u043b\\u0438 \\u043b\\u0435\\u043d\\u0442\\u044b\", \"optionName\": \"metric_lebj4i32xl_o0xfk5j4gas\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 14948, \"datasource_name\": \"sor_msg_feed_stats\", \"schema\": \"simulator_20221020\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":7034,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"date\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":36551,\"column_name\":\"uniqExact(user_id)\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"UINT64\",\"type_generic\":null,\"python_date_format\":null},\"aggregate\":\"SUM\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438 \u043c\u0435\u0441\u0441\u0435\u043d\u0434\u0436\u0435\u0440\u0430\",\"optionName\":\"metric_y0irzkpp6w_q9x9etgnbt\"},{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":36552,\"column_name\":\"feed_stat.uniqExact(user_id)\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"UINT64\",\"type_generic\":null,\"python_date_format\":null},\"aggregate\":\"SUM\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438 \u043b\u0435\u043d\u0442\u044b\",\"optionName\":\"metric_lebj4i32xl_o0xfk5j4gas\"}],\"annotation_layers\":[],\"row_limit\":1000,\"timeseries_limit\":100,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u0438",
+                            "viz_type": "line"
+                        }
+                    },
+                    {
+                        "__Slice__": {
+                            "cache_timeout": null,
+                            "datasource_name": "simulator_20221020.sor_attitude_feed_msg",
+                            "datasource_type": "table",
+                            "id": 14950,
+                            "params": "{\"adhoc_filters\": [], \"annotation_layers\": [], \"bottom_margin\": \"auto\", \"color_scheme\": \"supersetColors\", \"comparison_type\": \"values\", \"datasource\": \"7035__table\", \"extra_form_data\": {}, \"granularity_sqla\": \"date\", \"groupby\": [], \"label_colors\": {}, \"left_margin\": \"auto\", \"limit\": 100, \"line_interpolation\": \"linear\", \"metrics\": [{\"aggregate\": \"SUM\", \"column\": {\"column_name\": \"attitude\", \"description\": null, \"expression\": null, \"filterable\": true, \"groupby\": true, \"id\": 36555, \"is_dttm\": false, \"python_date_format\": null, \"type\": \"FLOAT64\", \"type_generic\": 0, \"verbose_name\": null}, \"expressionType\": \"SIMPLE\", \"hasCustomLabel\": true, \"isNew\": false, \"label\": \"\\u041f\\u0430\\u0440\\u0430\\u043b\\u043b\\u0435\\u043b\\u044c\\u043d\\u043e\\u0435 \\u0438\\u0441\\u043f\\u043e\\u043b\\u044c\\u0437\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435\", \"optionName\": \"metric_5mne70j5xnv_uu9n86m5hh\", \"sqlExpression\": null}], \"order_desc\": true, \"rich_tooltip\": true, \"rolling_type\": \"None\", \"row_limit\": 1000, \"show_brush\": \"auto\", \"time_grain_sqla\": \"P1D\", \"time_range\": \"No filter\", \"time_range_endpoints\": [\"inclusive\", \"exclusive\"], \"viz_type\": \"line\", \"x_axis_format\": \"smart_date\", \"x_ticks_layout\": \"auto\", \"y_axis_bounds\": [null, null], \"y_axis_format\": \"SMART_NUMBER\", \"remote_id\": 14950, \"datasource_name\": \"sor_attitude_feed_msg\", \"schema\": \"simulator_20221020\", \"database_name\": \"ClickHouse: simulator\"}",
+                            "query_context": "{\"datasource\":{\"id\":7035,\"type\":\"table\"},\"force\":false,\"queries\":[{\"time_range\":\"No filter\",\"granularity\":\"date\",\"filters\":[],\"extras\":{\"time_grain_sqla\":\"P1D\",\"time_range_endpoints\":[\"inclusive\",\"exclusive\"],\"having\":\"\",\"having_druid\":[],\"where\":\"\"},\"applied_time_extras\":{},\"columns\":[],\"metrics\":[{\"expressionType\":\"SIMPLE\",\"column\":{\"id\":36555,\"column_name\":\"attitude\",\"verbose_name\":null,\"description\":null,\"expression\":null,\"filterable\":true,\"groupby\":true,\"is_dttm\":false,\"type\":\"FLOAT64\",\"type_generic\":0,\"python_date_format\":null},\"aggregate\":\"SUM\",\"sqlExpression\":null,\"isNew\":false,\"hasCustomLabel\":true,\"label\":\"\u041f\u0430\u0440\u0430\u043b\u043b\u0435\u043b\u044c\u043d\u043e\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435\",\"optionName\":\"metric_5mne70j5xnv_uu9n86m5hh\"}],\"annotation_layers\":[],\"row_limit\":1000,\"timeseries_limit\":100,\"order_desc\":true,\"url_params\":{},\"custom_params\":{},\"custom_form_data\":{}}],\"result_format\":\"json\",\"result_type\":\"full\"}",
+                            "slice_name": "\u041f\u0430\u0440\u0430\u043b\u043b\u0435\u043b\u044c\u043d\u043e\u0435 \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u0435",
+                            "viz_type": "line"
+                        }
+                    }
+                ],
+                "slug": null
+            }
+        }
+    ],
+    "datasources": [
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T16:32:33"
+                            },
+                            "column_name": "date",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T16:32:33"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36550,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 7034,
+                            "type": "DATE",
+                            "uuid": "4d792e4c-1952-4632-baf7-7263c57a3984",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T16:32:33"
+                            },
+                            "column_name": "uniqExact(user_id)",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T16:32:33"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36551,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7034,
+                            "type": "UINT64",
+                            "uuid": "c38b9877-d7c0-4b59-8a85-75f34cff0339",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T16:32:33"
+                            },
+                            "column_name": "feed_stat.uniqExact(user_id)",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T16:32:33"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36552,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7034,
+                            "type": "UINT64",
+                            "uuid": "e4cacb01-96d0-4a3a-8eb0-69e02df0e939",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T16:32:33"
+                            },
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T16:32:33"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 7167,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 7034,
+                            "uuid": "f3a5391f-457e-4792-b7a8-f3fcb46e04a1",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 7034, \"database_name\": \"ClickHouse: simulator\"}",
+                "schema": "simulator_20221020",
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\nselect * from\n(select toDate(time) as date,count(distinct user_id) from simulator_20221020.message_actions group by date) as msg_stat\nJOIN \n(select toDate(time) as date, count(distinct user_id) from simulator_20221020.feed_actions group by date) as feed_stat\nusing date",
+                "table_name": "sor_msg_feed_stats",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T16:47:09"
+                            },
+                            "column_name": "date",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T16:47:09"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36554,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 7035,
+                            "type": "DATE",
+                            "uuid": "d60a9106-10d4-41e2-bc4c-97b34f3fb56b",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T16:47:09"
+                            },
+                            "column_name": "attitude",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T16:47:09"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36555,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7035,
+                            "type": "FLOAT64",
+                            "uuid": "0fe8b6bc-02b3-4d56-8938-a61adcb4ef77",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T16:47:09"
+                            },
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T16:47:09"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 7168,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 7035,
+                            "uuid": "b0e5b616-5c3c-486a-87c8-50cce3e62e27",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 7035, \"database_name\": \"ClickHouse: simulator\"}",
+                "schema": "simulator_20221020",
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\nselect date,msg/feed as attitude from\n(select toDate(time) as date,count(distinct user_id) as msg from simulator_20221020.message_actions group by date) as msg_stat\nJOIN \n(select toDate(time) as date, count(distinct user_id) as feed from simulator_20221020.feed_actions group by date) as feed_stat\nusing date",
+                "table_name": "sor_attitude_feed_msg",
+                "template_params": null
+            }
+        },
+        {
+            "__SqlaTable__": {
+                "cache_timeout": null,
+                "columns": [
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "user_id",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36478,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "UINT32",
+                            "uuid": "6e4afd29-6082-4ec5-a170-0f3e0cdfe9f9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "post_id",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36479,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "UINT32",
+                            "uuid": "3dcf0569-cfc4-4ac4-94a7-fe30fa989aa4",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "action",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36480,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "STRING",
+                            "uuid": "216c64f8-8c40-4bc5-b4b5-851aa3e4f41d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "time",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36481,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "DATETIME",
+                            "uuid": "1898df07-43c3-48a2-b05d-254e15a15a78",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "gender",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36482,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "INT8",
+                            "uuid": "12abb894-7e22-45fc-9647-0230629e92e5",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "age",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36483,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "INT16",
+                            "uuid": "b015eff0-8ea0-4911-91bf-925854a767e9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "country",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36484,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "STRING",
+                            "uuid": "c10ad3b0-48d1-4211-bec8-78a7b8d3a565",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "city",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36485,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "STRING",
+                            "uuid": "e62ef31b-2c14-4b82-8305-af6883eea303",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "os",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36486,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "STRING",
+                            "uuid": "af24dd04-e375-420d-84f1-c3bea552486d",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "source",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36487,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "STRING",
+                            "uuid": "8be73a38-04b3-46a0-9bac-b1ac4444957a",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "exp_group",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36488,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "INT8",
+                            "uuid": "80d57b45-7a5d-4e6d-be91-fb1fff37bb71",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "reciever_id",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36489,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "UINT32",
+                            "uuid": "4c9b1881-e260-4d9b-b8d3-33e48f921304",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "t2.time",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36490,
+                            "is_active": true,
+                            "is_dttm": true,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "DATETIME",
+                            "uuid": "26f084a8-292f-4ae5-ae77-17cdf79e14ea",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "t2.source",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36491,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "STRING",
+                            "uuid": "49fe9996-cd38-43fc-95b1-5dcbf12b2586",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "t2.exp_group",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36492,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "INT8",
+                            "uuid": "1e45d063-d70c-426b-83d6-cc90bd5ace9f",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "t2.gender",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36493,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "INT8",
+                            "uuid": "3beacafa-630f-442a-86cb-ab13425feef9",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "t2.age",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36494,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "INT16",
+                            "uuid": "83a5df7d-b5c8-4c45-90e5-11ddec1c5bfe",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "t2.country",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36495,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "STRING",
+                            "uuid": "9f2b53b3-6310-4bb1-8e39-386003e8f178",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "t2.city",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36496,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "STRING",
+                            "uuid": "3b007713-9240-4967-b3bc-f4e93e39a2e3",
+                            "verbose_name": null
+                        }
+                    },
+                    {
+                        "__TableColumn__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "column_name": "t2.os",
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "description": null,
+                            "expression": null,
+                            "filterable": true,
+                            "groupby": true,
+                            "id": 36497,
+                            "is_active": true,
+                            "is_dttm": false,
+                            "python_date_format": null,
+                            "table_id": 7028,
+                            "type": "STRING",
+                            "uuid": "c23876dd-cc1a-41a9-ba36-23756cbf22bb",
+                            "verbose_name": null
+                        }
+                    }
+                ],
+                "database_id": 1,
+                "default_endpoint": null,
+                "description": null,
+                "extra": null,
+                "fetch_values_predicate": null,
+                "filter_select_enabled": false,
+                "main_dttm_col": null,
+                "metrics": [
+                    {
+                        "__SqlMetric__": {
+                            "changed_by_fk": 384,
+                            "changed_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "created_by_fk": 384,
+                            "created_on": {
+                                "__datetime__": "2022-11-01T15:52:58"
+                            },
+                            "d3format": null,
+                            "description": null,
+                            "expression": "count(*)",
+                            "extra": null,
+                            "id": 7161,
+                            "metric_name": "count",
+                            "metric_type": null,
+                            "table_id": 7028,
+                            "uuid": "817a18ca-0db3-42f0-a205-7e03502d9450",
+                            "verbose_name": null,
+                            "warning_text": null
+                        }
+                    }
+                ],
+                "offset": 0,
+                "params": "{\"remote_id\": 7028, \"database_name\": \"ClickHouse: simulator\"}",
+                "schema": "simulator_20221020",
+                "sql": "-- Note: Unless you save your query, these tabs will NOT persist if you clear your cookies or change browsers.\n\nSELECT * FROM \n(select * from simulator_20221020.feed_actions ) t1\nJOIN \n(select * from simulator_20221020.message_actions ) t2\nusing user_id",
+                "table_name": "sor_feed_message",
+                "template_params": null
+            }
+        }
+    ]
+}
